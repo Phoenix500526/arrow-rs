@@ -64,6 +64,7 @@ ring = { version = "0.17", default-features = false, features = ["std"], optiona
 
 [dev-dependencies]
 chrono = { workspace = true }
+rstest = { workspace = true }
 mimalloc = { version = "0.1", default-features = false }
 base64 = { version = "0.23", default-features = false, features = ["std"] }
 criterion = { workspace = true, default-features = false, features = ["async_futures"]  }
